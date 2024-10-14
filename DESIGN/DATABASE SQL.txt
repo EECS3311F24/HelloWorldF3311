@@ -1,0 +1,69 @@
+CREATE TABLE User (
+    user_id INT PRIMARY KEY,
+    username VARCHAR(20),
+    password VARCHAR(60),
+    status INT,
+    email VARCHAR(64),
+    address VARCHAR(64)
+);
+
+-- Address Table
+CREATE TABLE Address (
+    address_id INT PRIMARY KEY,
+    user_id INT,
+    contact_name VARCHAR(30),
+    phone_number VARCHAR(14),
+    detailed_address VARCHAR(200),
+    zip_code INT,
+    FOREIGN KEY (user_id) REFERENCES User(user_id)
+);
+
+-- Shopping Cart Table
+CREATE TABLE ShoppingCart (
+    shopping_cart_id INT PRIMARY KEY,
+    user_id INT,
+    product_id INT,
+    quantity INT,
+    price DECIMAL(12,2),
+    FOREIGN KEY (user_id) REFERENCES User(user_id),
+    FOREIGN KEY (product_id) REFERENCES Product(product_id)
+);
+
+-- Product Table
+CREATE TABLE Product (
+    product_id INT PRIMARY KEY,
+    product_name VARCHAR(50),
+    release_date DATE,
+    description VARCHAR(100),
+    price DECIMAL(12,2),
+    stock INT,
+    image_url VARCHAR(200)
+);
+
+-- Category Table
+CREATE TABLE Category (
+    category_id INT PRIMARY KEY,
+    category_name VARCHAR(20),
+    description VARCHAR(200)
+);
+
+-- Order Table
+CREATE TABLE `Order` (
+    order_id VARCHAR(64) PRIMARY KEY,
+    user_id INT,
+    total_price DECIMAL(12,2),
+    payment_status INT,
+    payment_date DATETIME,
+    FOREIGN KEY (user_id) REFERENCES User(user_id)
+);
+
+-- Order Item Table
+CREATE TABLE OrderItem (
+    order_item_id VARCHAR(64) PRIMARY KEY,
+    order_id VARCHAR(64),
+    product_id INT,
+    quantity INT,
+    price DECIMAL(12,2),
+    FOREIGN KEY (order_id) REFERENCES `Order`(order_id),
+    FOREIGN KEY (product_id) REFERENCES Product(product_id)
+);
