@@ -1,0 +1,17 @@
+scenario: Liam wants to purchase affordable cards and learn more about the game to improve his skills.
+
+Logical Flow
+Homepage
+Liam accesses the homepage, which features a simple design with popular cards and links to all the event that related to it.
+Exploring Educational Content
+He navigates to the "Event" section filled with engaging tutorials and videos or he can go to store and attend the tutorial.
+Browsing Affordable Cards
+Liam uses filters to find cards within his budget.
+Adding Items to Wishlist
+He adds desired cards to his wishlist to review with his parents later.
+Completing Purchase
+Liam proceeds to checkout.
+Order Confirmation
+He receives a confirmation and eagerly awaits the delivery.
+UI Considerations
+Simplified Navigation: Easy-to-find sections like "Learn to Play" and "Affordable Cards."
