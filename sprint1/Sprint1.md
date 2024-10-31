@@ -5,10 +5,10 @@ including user authentication, homepage layout, and initial Database for users .
 
 User Stories: 
 As a user, I want to be able to log in securely (In future the user can track all their orders).
-As a user, I want to browsing the card shopping page.
+As a user, i want to know whether i successfully log in.
 
 Team Capacity and Participants: 
-Aaron:develop the login function and initialize the database for customer
-Haoyang Tian: designing the Shopping page and finish database design
+Aaron:develop the login function and initialize the database for customer will be 5 hours
+Haoyang Tian: designing the Shopping page and finish database design 3 hours 
 
 
