@@ -9,7 +9,7 @@ As a user, i want to know whether i successfully log in.
 
 Team Capacity and Participants: 
 Aaron:develop the login function and initialize the database for customer will be 5 hours
-Haoyang Tian: designing the Shopping page and finish database design 3 hours 
+Haoyang Tian: designing the Login Interface and finish database design 3 hours 
 
 Decisions
 Frontend & Backend Frameworks: Using HTML/CSS for the frontend interface and First we will try JavaScript with Mysql then we will try the SpringBoot with mySql (e.g., Node.js, Django) for the authentication system.
