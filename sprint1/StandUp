@@ -21,3 +21,25 @@ i think it will take 4 days since we still need to learn a lot of springBoot thi
 Do you have any blockers?
 How to use SpringBoot
 
+
+Standup Date: Sprint 1, Standup #3 October 29TH
+What did you work on since the last standup?
+We have figure out a how to use SpringBoot 
+What do you commit to next?
+We planing to first commit a complete login Function.
+When do you think you'll be done?
+i think it will take 1 days since we implement the login function
+Do you have any blockers?
+yes we dont know why that in our database there is no user_name and user_password we checked back and forth but its keep erroring us .
+CREATE TABLE User (
+    UserID INT AUTO_INCREMENT PRIMARY KEY,
+    UserName VARCHAR(50) NOT NULL,
+    UserPassword VARCHAR(255) NOT NULL,
+    Email VARCHAR(100) NOT NULL UNIQUE,
+    Gender VARCHAR(10),
+    Status INT,
+    ActiveCode INT,
+    `Character` INT  -- Enclose "Character" in backticks to avoid conflict with SQL keywords
+); this is our database for user 
+
+
