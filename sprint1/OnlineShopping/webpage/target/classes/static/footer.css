@@ -1,0 +1,25 @@
+.footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+   
+    height: fit-content;
+   display: flex;
+}
+.left{
+    padding-left: 200px;
+    text-align: left;
+    list-style-type: none;
+}
+.left li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.right{
+    padding-left: 300px;
+    list-style-type: none;
+}
+
+
