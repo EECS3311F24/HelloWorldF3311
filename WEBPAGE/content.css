@@ -1,0 +1,28 @@
+.content img{
+    width: 160px;
+    height: 160px;
+    padding-left: 80px;
+}
+.kinds{
+    padding-left: 80px;
+    text-align: center;
+}
+.content a{
+    text-decoration: none;
+    color: black;
+}
+.content li{
+    float: left;
+    list-style: none;
+    display: block;
+}
+.content h1{
+    text-align: center;
+    font-weight: bolder;
+}
+.content{
+   line-height: 100px;
+}
+.content a:hover{
+    color: orange;
+}

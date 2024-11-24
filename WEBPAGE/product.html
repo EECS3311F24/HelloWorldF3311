@@ -1,0 +1,337 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="menu.css">
+   <link rel="stylesheet" href="content.css">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="product.css">
+   <link rel="stylesheet" href="pagination.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <script src="script.js"></script>
+   
+</head>
+<body>
+
+   
+
+    <div class="header">
+
+
+        <img src="icon_副本.jpg" alt="Logo">
+        <a href="#" class="login" onclick="openLoginForm()"><img class="user" src="user.png" alt="Login">Login</a>
+        <a href="#" class="cart">
+            <img class="cart-icon" src="shopping-cart.png" alt="Cart">Cart
+        </a>
+
+
+        <div id="loginModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeLoginForm()">&times;</span>
+                <h2>Login to my account</h2>
+                <p>Enter your e-mail and password:</p>
+                <form id="loginForm">
+                    <input type="email" id="email" name="email" placeholder="Email" required><br><br>
+                    <input type="password" id="password" name="password" placeholder="Password" required><br><br>
+                    <button type="submit" class="login-btn">Login</button>
+                </form>
+                <div class="links">
+                    <p>New customer? <a href="#">Create your account</a></p>
+                    <p>Lost password? <a href="#">Recover password</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+ <div class="nav">
+    <ul>
+        <li class="drop1"><a href="">POKEMON <i class="fa fa-angle-down"></i></a>
+            <ul class="drop1List">
+                <li><a href="#">ELITE TRAINER BOX </a></li>
+                <li><a href="#">BOOSTER BOX  </a></li>
+                <li><a href="#">COLLECTIION BOX  </a></li>
+                <li><a href="#">STARTER DECKS </a></li>
+            </ul>
+        </li>
+        <li class="drop1"><a href="">YUGIOH <i class="fa fa-angle-down"></i></a>
+            <ul class="drop1List">
+            <li><a href="#">BOOSTER BOX</a></li>
+            <li><a href="#">TINS</a></li>
+        </ul>
+
+        </li>
+
+        <li class="drop1"><a href="">SINGLES <i class="fa fa-angle-down"></i></a>
+            <ul class="drop1List">
+                <li><a href="#">POKEMON SINGLES</a></li>
+                <li><a href="#">YUGIOH SINGLES</a></li>
+                <li><a href="#">OTHERS</a></li>
+            </ul>
+        
+        
+        </li>
+        <li class="drop1"> <a href="#">ACCESSORIES <i class="fa fa-angle-down"></i></a>
+        <ul class="drop1List">
+            <li><a href="">SLEEVES</a></li>
+            <li><a href="">BINDERS</a></li>
+            <li><a href="">PLAY_MAT</a></li>
+        </ul>
+        </li>
+        <li class="drop1"><a href="">ONE PIECE <i class="fa fa-angle-down"></i></a>
+            <ul class="drop1List">
+                <li><a href="">BOOSTER BOX</a></li>
+                <li><a href="">SINGLES</a></li>
+                <li><a href="">DECKS</a></li>
+            </ul>
+        </li>
+
+    </ul>
+ </div>
+ 
+
+ <div class="sort-container">
+    <label for="sort-by" class="sort-label">Sort by</label>
+    <select id="sort-by" class="sort-dropdown">
+        <option value="high-to-low">Price: High To Low</option>
+        <option value="low-to-high">Price: Low To High</option>
+        <option value="newest">Newest Arrivals</option>
+        <option value="best-sellers">Best Sellers</option>
+    </select>
+</div>
+
+
+<div class="product-grid">
+ <div class="product-card">
+    <div class="product-image">
+        <img src="151.webp" alt="Scarlet & Violet: 151 - Alakazam ex Box">
+    </div>
+    <div class="product-details">
+        <h2>Scarlet & Violet: 151 - Alakazam ex Box</h2>
+        <div class="tag">New</div>
+        <p class="price">$43.99 CAD</p>
+        <button class="add-to-cart">ADD TO CART</button>
+    </div>
+</div>
+
+<div class="product-card">
+    <div class="product-image">
+        <img src="151.webp" alt="Scarlet & Violet: 151 - Alakazam ex Box">
+    </div>
+    <div class="product-details">
+        <h2>Scarlet & Violet: 151 - Alakazam ex Box</h2>
+        <div class="tag">New</div>
+        <p class="price">$43.99 CAD</p>
+        <button class="add-to-cart">ADD TO CART</button>
+    </div>
+</div>
+
+<div class="product-card">
+    <div class="product-image">
+        <img src="151.webp" alt="Scarlet & Violet: 151 - Alakazam ex Box">
+    </div>
+    <div class="product-details">
+        <h2>Scarlet & Violet: 151 - Alakazam ex Box</h2>
+        <div class="tag">New</div>
+        <p class="price">$43.99 CAD</p>
+        <button class="add-to-cart">ADD TO CART</button>
+    </div>
+</div>
+
+<div class="product-card">
+    <div class="product-image">
+        <img src="151.webp" alt="Scarlet & Violet: 151 - Alakazam ex Box">
+    </div>
+    <div class="product-details">
+        <h2>Scarlet & Violet: 151 - Alakazam ex Box</h2>
+        <div class="tag">New</div>
+        <p class="price">$43.99 CAD</p>
+        <button class="add-to-cart">ADD TO CART</button>
+    </div>
+</div>
+
+<div class="product-card">
+    <div class="product-image">
+        <img src="151.webp" alt="Scarlet & Violet: 151 - Alakazam ex Box">
+    </div>
+    <div class="product-details">
+        <h2>Scarlet & Violet: 151 - Alakazam ex Box</h2>
+        <div class="tag">New</div>
+        <p class="price">$43.99 CAD</p>
+        <button class="add-to-cart">ADD TO CART</button>
+    </div>
+</div>
+
+<div class="product-card">
+    <div class="product-image">
+        <img src="151.webp" alt="Scarlet & Violet: 151 - Alakazam ex Box">
+    </div>
+    <div class="product-details">
+        <h2>Scarlet & Violet: 151 - Alakazam ex Box</h2>
+        <div class="tag">New</div>
+        <p class="price">$43.99 CAD</p>
+        <button class="add-to-cart">ADD TO CART</button>
+    </div>
+</div>
+
+
+<div class="product-card">
+    <div class="product-image">
+        <img src="151.webp" alt="Scarlet & Violet: 151 - Alakazam ex Box">
+    </div>
+    <div class="product-details">
+        <h2>Scarlet & Violet: 151 - Alakazam ex Box</h2>
+        <div class="tag">New</div>
+        <p class="price">$43.99 CAD</p>
+        <button class="add-to-cart">ADD TO CART</button>
+    </div>
+</div>
+
+<div class="product-card">
+    <div class="product-image">
+        <img src="151.webp" alt="Scarlet & Violet: 151 - Alakazam ex Box">
+    </div>
+    <div class="product-details">
+        <h2>Scarlet & Violet: 151 - Alakazam ex Box</h2>
+        <div class="tag">New</div>
+        <p class="price">$43.99 CAD</p>
+        <button class="add-to-cart">ADD TO CART</button>
+    </div>
+</div>
+
+<div class="product-card">
+    <div class="product-image">
+        <img src="151.webp" alt="Scarlet & Violet: 151 - Alakazam ex Box">
+    </div>
+    <div class="product-details">
+        <h2>Scarlet & Violet: 151 - Alakazam ex Box</h2>
+        <div class="tag">New</div>
+        <p class="price">$43.99 CAD</p>
+        <button class="add-to-cart">ADD TO CART</button>
+    </div>
+</div>
+
+<div class="product-card">
+    <div class="product-image">
+        <img src="151.webp" alt="Scarlet & Violet: 151 - Alakazam ex Box">
+    </div>
+    <div class="product-details">
+        <h2>Scarlet & Violet: 151 - Alakazam ex Box</h2>
+        <div class="tag">New</div>
+        <p class="price">$43.99 CAD</p>
+        <button class="add-to-cart">ADD TO CART</button>
+    </div>
+</div>
+
+<div class="product-card">
+    <div class="product-image">
+        <img src="151.webp" alt="Scarlet & Violet: 151 - Alakazam ex Box">
+    </div>
+    <div class="product-details">
+        <h2>Scarlet & Violet: 151 - Alakazam ex Box</h2>
+        <div class="tag">New</div>
+        <p class="price">$43.99 CAD</p>
+        <button class="add-to-cart">ADD TO CART</button>
+    </div>
+</div>
+
+<div class="product-card">
+    <div class="product-image">
+        <img src="151.webp" alt="Scarlet & Violet: 151 - Alakazam ex Box">
+    </div>
+    <div class="product-details">
+        <h2>Scarlet & Violet: 151 - Alakazam ex Box</h2>
+        <div class="tag">New</div>
+        <p class="price">$43.99 CAD</p>
+        <button class="add-to-cart">ADD TO CART</button>
+    </div>
+</div>
+
+<div class="product-card">
+    <div class="product-image">
+        <img src="151.webp" alt="Scarlet & Violet: 151 - Alakazam ex Box">
+    </div>
+    <div class="product-details">
+        <h2>Scarlet & Violet: 151 - Alakazam ex Box</h2>
+        <div class="tag">New</div>
+        <p class="price">$43.99 CAD</p>
+        <button class="add-to-cart">ADD TO CART</button>
+    </div>
+</div>
+
+<div class="product-card">
+    <div class="product-image">
+        <img src="151.webp" alt="Scarlet & Violet: 151 - Alakazam ex Box">
+    </div>
+    <div class="product-details">
+        <h2>Scarlet & Violet: 151 - Alakazam ex Box</h2>
+        <div class="tag">New</div>
+        <p class="price">$43.99 CAD</p>
+        <button class="add-to-cart">ADD TO CART</button>
+    </div>
+</div>
+
+<div class="product-card">
+    <div class="product-image">
+        <img src="151.webp" alt="Scarlet & Violet: 151 - Alakazam ex Box">
+    </div>
+    <div class="product-details">
+        <h2>Scarlet & Violet: 151 - Alakazam ex Box</h2>
+        <div class="tag">New</div>
+        <p class="price">$43.99 CAD</p>
+        <button class="add-to-cart">ADD TO CART</button>
+    </div>
+</div>
+
+<div class="product-card">
+    <div class="product-image">
+        <img src="151.webp" alt="Scarlet & Violet: 151 - Alakazam ex Box">
+    </div>
+    <div class="product-details">
+        <h2>Scarlet & Violet: 151 - Alakazam ex Box</h2>
+        <div class="tag">New</div>
+        <p class="price">$43.99 CAD</p>
+        <button class="add-to-cart">ADD TO CART</button>
+    </div>
+</div>
+
+</div>
+
+
+<hr>
+<div class="pagination">
+    <a href="#" class="previous">« Previous</a>
+    <a href="#" class="page-number active">1</a>
+    <a href="#" class="page-number">2</a>
+    <a href="#" class="page-number">3</a>
+    <span class="dots">...</span>
+    <a href="#" class="page-number">12</a>
+    <a href="#" class="next">Next »</a>
+</div>
+
+
+
+    <div class="footer">
+        
+        <ul class="left">
+            <h1>About us</h1>
+           <li><a href="">SHIPPING POLICY</a></li>
+           <li><a href="">REFUND POLICY</a></li>
+           <li><a href="">PRIVACY POLICY</a></li>
+           <li><a href="">TERMS OF SERVICE</a></li>
+        </ul>
+       <ul class="right">
+        <h1>Contact Us</h1>
+        <li>Location:</li>
+        <li>8339 Kennedy Rd #2521, Unionville, ON</li>
+        <li>L3R 5T5</li>
+        <li>Hours: </li>
+        <li>Fri, Sat & Sun: 2pm - 6pm</li>
+        <li> Email: contactus@tcgexpress.net </li>
+       </ul>
+    
+    
+    </div>
+
+</body>
+</html>
