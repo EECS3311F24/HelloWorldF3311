@@ -34,21 +34,21 @@ Your Mark: 3
     - 1 mark  = two or more stories in Trello Backlog do not follow the template
     - 0 marks = the majority of stories in Trello Backlog do not follow the template or no stories at all
 
-    Your Mark: 0
+    Your Mark: 2
 
   - Broken down into tasks/subtasks (max 2 marks)
     - 2 marks = all Sprint 1 stories estimated, broken into tasks/subtasks, tasks assigned to all team members
     - 1 mark = one or more Sprint 1 stories are not recorded Trello, or not estimated, or nor broken into tasks, or at least one task not assigned, or at least one team member unassigned a task
     - 0 marks = the majority of Sprint 1 stories not recorded in Trello or not estimated, or nor broken into tasks, or tasks not assigned, or team members unassigned a task
 
-    Your Mark: 0 
+    Your Mark: 2 
 
   - Estimated (max 2 marks)
     - 2 marks = all stories in Trello Backlog are point estimated and the point value is recorded in Trello
     - 1 mark  = two or more stories in Trello Backlog are not point estimated or the point value is not recorded in Trello
     - 0 marks = the majority of stories in Trello Backlog are not point estimated or the point value is not recorded in Trello
 
-    Your Mark: 0
+    Your Mark: 2
 
   - Prioritized	(max 4 marks)
     - 4 marks = all stories in Trello Backlog are prioritized in the order of value they bring to the product, make the product competitive and desirable to the users. Additionally, they match with the selection made in Release Planning meeting.
@@ -56,16 +56,16 @@ Your Mark: 3
     - 2 marks = two or more stories in Trello Backlog do not satisfy the above
     - 0 marks = 3 or more stories in Trello Backlog do not satisfy the above
 
-    Your Mark: 0 
+    Your Mark: 4 
 
   - Clearly Defined Acceptance Criteria (max 2 marks)
     - 2 marks = all Sprint 1 stories have clearly defined and testable acceptance criteria
     - 1 mark  = one or more Sprint 1 stories do not have clearly defined or testable acceptance criteria
     - 0 marks = the majority of the Sprint1 stories do not have clearly defined or testable acceptance criteria
 
-    Your Mark: 0 
+    Your Mark: 2 
 
-  User Stories Total Mark: 0 / 12
+  User Stories Total Mark: 12 / 12
 
 ---
 ## Tracking on Trello  (max 4 marks) 
@@ -149,7 +149,7 @@ Tracking on Trello Total Mark: 5 / 15
     - 1 mark  = The majority of class names do not match the collaborator names or the responsibilities of the majority of the classes are not stated or are unclear
     - 0 marks = No CRC provided or the provided document does not match the CRC model
 
-    Your Mark: 2
+    Your Mark: 4
 
   - Software Architecture Diagram (max 4 marks)
     - 4 marks = The Architecture Diagram is present, it is formatted using proper graphic symbols, and it follows a known Architecture diagram.
@@ -162,7 +162,7 @@ Tracking on Trello Total Mark: 5 / 15
     There is no web link or other reference lending support to the presented diagram.
     - 0 marks = No diagram present or the presented document does not look like a software architecture diagram
 
-    Your Mark: 2 /10
+    Your Mark: 4 /10
 
 ---
 ## Sprint Video Demo (Max 12 marks) 
@@ -193,5 +193,5 @@ Tracking on Trello Total Mark: 5 / 15
 
 ## Total Mark
 
-22 / 64
+36 / 64
 
