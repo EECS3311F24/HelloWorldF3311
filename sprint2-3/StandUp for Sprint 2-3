@@ -1,0 +1,58 @@
+ StandUp #1
+1. What did you work on since the last standup?
+Created the front end product.html
+Created the back-end API endpoint (GET /api/products) to fetch product data dynamically from the database.
+Designed and populated the Product table with sample data (fields: name, price, image URL, tag, category).
+2. What do you commit to next?
+
+Start integrating the product API with the front-end to dynamically render the product cards.
+Begin implementing pagination logic in the back-end.
+3. When do you think you'll be done?
+
+API integration should be completed by [2024/11/20].
+4. Do you have any blockers?
+
+Need clarity on handling empty pages for pagination when no products exist and also how to fecth data also how to link front end to backend.
+also not sure when adding an item to database how does it appear on the website is it using css Html or other ways
+
+
+StandUp 2
+
+
+Sprint: Sprint 2-3, StandUp #2
+1. What did you work on since the last standup?
+
+Integrated sorting functionality into the GET /api/products endpoint.
+Added sorting parameters (e.g., sort=price_asc, sort=name_desc) to the back-end query logic.
+Implemented a front-end dropdown menu for users to select sorting options.
+2. What do you commit to next?
+
+Complete testing for sorting options (price, name, popularity) on the front-end.
+Finalize the pagination feature, including navigation buttons and page number display.
+3. When do you think you'll be done?
+
+Sorting and pagination tests should be completed by [2024/11/23].
+4. Do you have any blockers?
+
+its still the same thing like we still do not know how to do it like we knwo we can limit 1 page 12 product by using sql but how to fetch it
+
+
+StandUp 3
+
+
+Sprint: Sprint 2-3, StandUp #3
+1. What did you work on since the last standup?
+
+Successfully integrated pagination into the front-end, displaying 12 products per page.
+Completed testing for both sorting and pagination features.
+Implemented dynamic rendering of product cards on the product browsing page.
+2. What do you commit to next?
+
+Maybe begin polishing the product browsing page for responsive design.
+Review and finalize documentation for Sprint 2-3 deliverables.
+3. When do you think you'll be done?
+
+All tasks should be completed by the end of Sprint 3.
+4. Do you have any blockers?
+
+Also how to do it like we know the sql logic but now sure how to do it
