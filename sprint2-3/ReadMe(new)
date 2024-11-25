@@ -1,0 +1,54 @@
+Overview
+Welcome to the Tcg Express Online shopping website! 
+This project is an interactive web-based application designed to allow users to browse trading cards, manage their collections. 
+The platform incorporates responsive UI components, dynamic back-end integration, and secure user authentication to ensure a seamless user experience.
+
+Features
+Main Page (Dropdown Menu):
+A responsive main page (dropMenu.html) with dropdown navigation for easy access to:
+Product Browsing
+Cart Management
+User Login
+User Profile
+Accessible and user-friendly layout.
+Login Functionality:
+Secure user login system integrated with a back-end database.
+Includes session management and error handling for invalid credentials.
+Supports account persistence.
+Product Browsing Page:
+Display all trading cards dynamically pulled from the database.
+Includes essential details such as card name, price, image, and category.
+Sorting Options:
+Sort by price (low-to-high, high-to-low), name (alphabetical), or popularity.
+Pagination:
+Displays up to 10 products per page, with "Next" and "Previous" navigation.
+Cart Interface:
+Allows users to view and manage cart items.
+Supports item addition, quantity updates, and removal.
+Displays the total price with a "Proceed to Checkout" button.
+
+
+1 Clone the Repository:
+git clone https://github.com/HelloWorldF3311/webPage.git
+
+2 Navigate to the Project Folder:
+cd trading-card-game
+
+3 Set Up the Backend:
+Ensure you have Java installed.
+Configure the database connection in application.properties.
+Run the back-end server using:
+mvn spring-boot:run
+then type localhost:8080/dropMenu.html or localhost:8080/product.html
+
+Technologies Used
+Front-End:
+HTML, CSS, JavaScript
+Responsive design for cross-device compatibility.
+Back-End:
+Java Spring Boot for API development.
+JPA (Jakarta Persistence API) for database interaction.
+Database:
+MySQL for managing product, user, and cart data.
+Version Control:
+Git and GitHub for collaboration and tracking.
