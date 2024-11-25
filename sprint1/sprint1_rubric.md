@@ -96,7 +96,7 @@ Your Mark: 3
     - 0 marks = no task was completed by anyone
     
     
-  Your Mark: 0 
+  Your Mark: 2 
   
   - Is each pull request made from a separate branch for each individual task? (max 2 marks)
     - 2 marks = pull request for each task made from own separate branch
@@ -104,7 +104,7 @@ Your Mark: 3
     - 0 marks = pull request for the majority of tasks not made from own separate branch
     
     
-Your Mark: 0
+Your Mark: 2
     
   - Is the git commit message clear? (max 2 marks)
     - 2 marks = all commit message begin with the ticket number of the task followed by a short description of commit changes
@@ -112,7 +112,7 @@ Your Mark: 0
     - 0 marks = majority of commit message do not begin with the ticket number of the task followed by a short description of commit changes
     
     
-Your Mark: 0
+Your Mark: 2
     
   - Tasks Distribution (max 3 marks)
     - 3 marks = every team member had at least one task assigned and completed
@@ -120,9 +120,9 @@ Your Mark: 0
     - 1 mark  = at least one team member did not complete any task or did not have any task assigned
     - 0 marks = most of team members have no tasks assigned and/or completed
 
-    Your Mark: 2
+    Your Mark: 3
 
-Tracking on Trello Total Mark: 5 / 15
+Tracking on Trello Total Mark: 12 / 15
 
 ---
 ## Sprint Completion (Max 10 marks) 
@@ -193,5 +193,5 @@ Tracking on Trello Total Mark: 5 / 15
 
 ## Total Mark
 
-36 / 64
+43 / 64
 
