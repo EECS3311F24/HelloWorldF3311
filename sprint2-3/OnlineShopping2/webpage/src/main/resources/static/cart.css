@@ -1,0 +1,38 @@
+.cart-content {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 6cm;
+}
+
+.cart-empty-message {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.cart-shop-prompt {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+}
+
+.cart-shop-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.cart-shop-button {
+    padding: 10px 20px;
+    background-color: #6d28d9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.cart-shop-button:hover {
+    background-color: #5a23b1; /* Darker shade for hover effect */
+}
