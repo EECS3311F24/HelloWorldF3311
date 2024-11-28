@@ -1,0 +1,43 @@
+.pagination {
+    display: flex; /* Use flexbox to align items */
+    justify-content: center; /* Center the pagination buttons */
+    align-items: center;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #555;
+    background-color: #f8f8f8;
+    border-top: 1px solid #e0e0e0; /* Optional: Adds a separator line */
+}
+
+.pagination a,
+.pagination span {
+    margin: 0 8px;
+    text-decoration: none;
+    color: #555;
+    padding: 6px 12px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.pagination a:hover {
+    background-color: #ddd;
+    color: #000;
+}
+
+.pagination .active {
+    font-weight: bold;
+    border: 1px solid #555;
+    color: #555;
+    background-color: #fff;
+}
+
+.pagination .previous,
+.pagination .next {
+    border-radius: 0;
+    padding: 6px 10px;
+}
+
+.pagination .dots {
+    color: #aaa;
+}
