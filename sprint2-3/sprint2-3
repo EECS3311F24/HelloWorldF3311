@@ -1,0 +1,69 @@
+
+Goal
+The goal of Sprints 2-3 is to complete the 
+product browsing functionality with sorting and pagination.
+also we will to redesign the database
+
+
+User Stories
+As a user, I want to browse all available products
+Users should be able to view products dynamically fetched from the database.
+As a user, I want to sort products
+Users should have sorting options to organize products by price, name, or popularity.
+As a user, I want to navigate through products using pagination
+Pagination will display a limited number of products per page with navigation options.
+As a user, I want to log in securely
+Users should be able to log in using their credentials and access their accounts.
+
+Task distribution
+
+Team Capacity and Participants
+Team Member	Task	Time Estimate
+Aaron	- Develop backend APIs for product browsing.	honestly we dont know how long it will take
+- Implement sorting and pagination logic.	
+Haoyang Tian	- Design and integrate the product browsing page.	4 hours
+- Refine the login interface and backend logic.	
+
+
+Decisions
+Frontend & Backend Frameworks
+
+Frontend:
+HTML/CSS for the product browsing and login interfaces.
+JavaScript for dynamic interactions (sorting and pagination).
+Backend:
+Spring Boot with MySQL for robust backend integration.
+Database:
+
+MySQL database will store:
+Product data:
+id, name, imageUrl, tag, price, category.
+User data:
+user_id, user_name, user_password, email.
+Sorting and Pagination:
+
+Sorting Parameters:
+Products will be sorted by price (ascending/descending), name (alphabetical), or popularity.
+Pagination:
+The backend will limit products per page and dynamically serve data for navigation.
+
+Sprint Deliverables
+Product Browsing Page:
+Displays all available products dynamically fetched from the database.
+Product cards include details such as name, price, image, and category.
+Sorting Functionality:
+Sorting options (price, name, popularity) available as a dropdown menu.
+Backend processes sorting parameters and dynamically adjusts the product list.
+Pagination Functionality:
+Displays a maximum of 10 products per page.
+Includes "Next" and "Previous" buttons, as well as page number navigation.
+Login System:
+Finalize user login functionality with backend integration.
+Error handling for invalid credentials.
+
+
+
+Sprint 4 goals(maybe):
+because we have finished almost all of opreations for the website so we planing not to do it , becasue this backend thing is so torture
+and we need to learn and look for resources for a lot of stuff although its fun but i think we are gonna end it here originally we are going
+to do the cart function and payment but now we decide maybe not to do it
